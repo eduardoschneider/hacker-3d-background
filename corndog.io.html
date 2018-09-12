@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0018)http://corndog.io/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+		.welcome {
+			text-align:center;
+			width:100%;
+			margin-top:15%;
+		}
+		
+		.welcome2 {
+			text-align:center;
+			width:100%;
+			font-size:1;
+		}
+		
+		.bottom {
+			text-align:center;
+			width:100%;
+			position: absolute;
+			bottom:0;
+		}
+	
+		* {
+			color:white;
+			font-family: ocr;
+			text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+			
+		}
+	
+        body { background-color:lightBlue; }
+        #snow{
+			
+            background-color: black;
+            font-family: Androgyne;
+            background-image: url('corndog-tile-1.png'), url('corndog-tile.png'), url('corndog-tile-2.png');
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index:1;
+            -webkit-animation: snow 700s linear infinite;
+            -moz-animation: snow 700s linear infinite;
+            -ms-animation: snow 700s linear infinite;
+            animation: snow 700s linear infinite;
+            -webkit-transform: translate3d(0,0,0);
+            -moz-transform: translate3d(0,0,0);
+            -ms-transform: translate3d(0,0,0);
+            -o-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+        }
+        @keyframes snow {
+          0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+          100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+        }
+        @-moz-keyframes snow {
+          0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+          100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+        }
+        @-webkit-keyframes snow {
+          0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+          100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+        }
+        @-ms-keyframes snow {
+          0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+          100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+        }   
+		
+		@font-face {
+		font-family: 'ocr'; /*a name to be used later*/
+		src: url('ocr-abt.ttf'); /*URL to font*/
+}
+    </style>
+</head>
+<body bgcolor="black">
+ <div id="snow">
+	<div class="welcome">
+	<font size="125">W E L C O M E</font>
+	</div>
+	<div class="welcome2">
+	hope u enjoy
+	</div>
+	<div class="welcome2">
+	this is a css practice
+	</div>
+	<div class="welcome2">
+	learning how to do 3D backgrounds
+	</div>
+	<div class="welcome2">
+	I know its hard to read
+	</div>
+	<div class="welcome2">
+	but at least</font>
+	</div>
+	<div class="welcome2">
+	you can read
+	</div>
+	
+	<div class="bottom">
+	Website by Eduardo Schneider (12/09/2018) - All Rights Reserved
+	</div>
+</div>
+
+</body></html>
